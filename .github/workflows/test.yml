@@ -16,5 +16,5 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          cd example-py-unittest/com/automationpanda/tests/
-          python test_calc.py
+          cd example-py-unittest/
+          python ./manage.py test --pattern="test_*.py"
