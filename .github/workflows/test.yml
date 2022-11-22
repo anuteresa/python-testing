@@ -16,4 +16,5 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python test doctest 
+          cd example-py-doctest/doctests/
+          python test_calc_class.txt 
