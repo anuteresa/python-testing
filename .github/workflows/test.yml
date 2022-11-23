@@ -17,5 +17,5 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
-          cd example-py-unittest/
-          python --pattern="test_*.py"
+          cd example-py-unittest/com/automationpanda/
+          python3 test --pattern="test_*.py"
